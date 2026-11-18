@@ -4,11 +4,7 @@ name: Update profile art
 # Runs daily, on push to main, and on-demand via workflow_dispatch.
 
 "on":
-  schedule:
-    - cron: "15 5 * * *"   # 05:15 UTC every day
   workflow_dispatch: {}
-  push:
-    branches: [main, master]
 
 permissions:
   contents: write
