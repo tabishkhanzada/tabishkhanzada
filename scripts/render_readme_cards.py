@@ -154,8 +154,8 @@ def hero(stats_data):
         portrait = []
         for i, (y, txt) in enumerate(rows):
             portrait.append(
-                f'<text class="f" style="animation-delay:{0.25 + i * 0.018:.3f}s;animation-duration:.35s" '
-                f'xml:space="preserve" x="20" y="{y}" fill="{INK}" font-size="7.2" '
+                f'<text class="f" style="animation-delay:{0.20 + i * 0.012:.3f}s;animation-duration:.25s" '
+                f'xml:space="preserve" x="20" y="{y}" fill="{INK}" font-size="6.8" '
                 f'textLength="800" lengthAdjust="spacing">{txt}</text>'
             )
         s = 0.41
